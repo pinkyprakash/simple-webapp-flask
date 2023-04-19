@@ -39,6 +39,7 @@ Open a browser and go to URL
     http://<IP>:5000                            => Welcome
     http://<IP>:5000/how%20are%20you            => I am good, how about you?
 
+## ------------------------------------------------------------------------------------------------------------------------------------
 ## Added - JP
 ## Creating Docker Image:
 docker pull ubuntu
@@ -50,7 +51,7 @@ pip install flask
 Craete/copy application code to /opt/app.py
 
 FLASK_APP=/opt/app.py flask run --host=0.0.0.0
-## ---------------------------------
+## ------------------------------------------------------------------------------------------------------------------------------------
 
 docker run -it ubantu bas
 
